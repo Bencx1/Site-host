@@ -1,0 +1,15 @@
+.body{
+    line-height: 1;
+    background: black;
+}
+.top{
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+.end{
+    color: white;
+    padding: 5%;
+}
+.container{
+    background: white;
+}
