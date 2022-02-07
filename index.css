@@ -1,15 +1,39 @@
 .body{
     line-height: 1;
-    background: black;
-}
-.top{
-    margin-top: 8%;
-    margin-bottom: 2%;
+    margin-top: 2%;
+    background: rgb(17, 16, 16);
 }
 .end{
-    color: white;
-    padding: 5%;
+    color: rgb(255, 254, 254);
 }
 .container{
-    background: white;
+    background: rgb(17, 16, 16);
+    margin-top: 2%;
+    color: darkgray;
+    float: right;
+}
+.titulo{
+    color: white;
+    position: relative;
+    left: 1.5%;
+}
+.sobre{ 
+    margin: 0% 24%;
+}
+.espaço{
+    margin: 25% 3%;
+}
+@media (max-width: 1067px) {
+    .sobre{ 
+        margin: 0% 0%;
+    }
+}
+@media (max-width: 607px) {
+    .sobre{ 
+        margin: 0% 0%;
+    }
+    .rounded{
+        width: 100px;
+        height: 100px;
+    }
 }
